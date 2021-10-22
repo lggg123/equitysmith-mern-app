@@ -1,0 +1,25 @@
+.top{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #01bbff; 
+    position: sticky;
+    display: flex;
+    top: 0;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo{
+    color: #01bbff;
+}
+
+.topLeft, .topRight{
+    flex: 3;
+    margin: 40px;
+}
+
+.topRight a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
