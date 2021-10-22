@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Equitysmith MERN revamp
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+Simply clone or download and go to project directory
 
 In the project directory, you can run:
 
