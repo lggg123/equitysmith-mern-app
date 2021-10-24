@@ -1,4 +1,5 @@
 import "./topbar.css"
+import AboutUs from "../../pages/AboutUs"
 
 export default function TopBar() {
     return (
