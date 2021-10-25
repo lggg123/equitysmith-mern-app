@@ -1,6 +1,6 @@
-import "./privacyPolicy.css"
+import "./contactUs.css"
 
-export default function PrivacyPolicy() {
+export default function ContactUs() {
     return (
         <>
             <h1>Contact <span class="blue">Us</span></h1>
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
                 </label>
                 <label>
                     Message 
-                    <input type="textarea" name="message" />
+                    <textarea placeholder="Message"></textarea>
                 </label>
             </form>
         </>
