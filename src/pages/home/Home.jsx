@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="test">
                     <img className="test_img" src={test_2}></img>
                     <p>{testimonial_2}</p>
-                    <p className="NameLoc">{name_loc2}</p>
+                    <p className="NameLocM">{name_loc2}</p>
                 </div>
                 <div class="test">
                     <img className="test_img" src={test_1}></img>

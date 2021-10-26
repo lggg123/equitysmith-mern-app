@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
     return (
         <>
             <div class="privacyContent">
-                <h1><u>Equi</u>tysmith Privacy Statement:</h1>
+                <div className="privacyTitle"><h1><u>Equi</u>tysmith Privacy Statement:</h1></div>
                 <p className="bold-font">{bold_text}</p>
                 <p className="privacyText">{text_sect1}<a href="https://www.Equitysmith.com" className="blue_link">www.Equitysmith.com</a>{text_sect2}<a href="mailto:optout@equitysmith.com" className="blue_link">optout@equitysmith.com</a>) to alert us.</p>
             </div>

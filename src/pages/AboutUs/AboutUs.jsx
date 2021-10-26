@@ -17,20 +17,20 @@ export default function AboutUs() {
             <div className="about"> 
                 <img className="aboutImage1" src={aboutUs1}></img>
                 <div className="aboutContent">
-                    <h1>Getting expert advice<span class="blue"> just got a lot easier!</span></h1>
-                    <h2>{small_title} <span className="title">insurance and financial professionals</span> at your convenience</h2>
-                    <p>{text1}</p>
-                    <h1>What Makes Equitysmith<span className="title"> Different?</span></h1>
-                    <p>{text2}</p>
-                    <h1>Your Privacy is <span className="title">Guaranteed</span></h1>
-                    <p>{text3} <a href="/privacy-policy">{link1}</a>.</p>
-                    <h1>It's Time for a Better Insurance and Financial Service<span className="title"> Experience</span></h1>
+                    <div className="aboutTitle"><h1>Getting expert advice<span class="blue"> just got a lot easier!</span></h1></div>
+                    <div className="aboutSmallTitle"><h2>{small_title} <span className="title">insurance and financial professionals</span> at your convenience</h2></div>
+                    <p className="aboutText">{text1}</p>
+                    <div className="aboutTitle"><h1>What Makes Equitysmith<span className="title"> Different?</span></h1></div>
+                    <p className="aboutText">{text2}</p>
+                    <div className="aboutTitle"><h1>Your Privacy is <span className="title">Guaranteed</span></h1></div>
+                    <p className="aboutText">{text3} <a href="/privacy-policy">{link1}</a>.</p>
+                    <div className="aboutTitle"><h1>It's Time for a Better Insurance and Financial Service<span className="title"> Experience</span></h1></div>
                     <ul className="no-bullet">
                         <li><span className="title">You are in complete control:</span>{list_t1}</li>
                         <li><span className="title">No selling permitted:</span>{list_t2}</li>
                         <li><span className="title">We match you with a "Best Fit" professional:</span>{list_t3}</li>
                     </ul>
-                    <p>{text4}</p>
+                    <p className="aboutText">{text4}</p>
                 </div>
             </div>
             <img className="aboutImage2" src={aboutUs2}></img>

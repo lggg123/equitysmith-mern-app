@@ -9,14 +9,13 @@ export default function BecomeAnAdvisor() {
     return (
         <>
             <div className="advisorContent">    
-                <h1>{title_sect1} <span className="title">{title_sect2}</span>or <span className="title">Financial Planner</span> in California?</h1>
-                <h2>Think about how a steady stream of fresh, free leads would change your business.</h2>
+                <div className="becomeTopTitle"><h1>{title_sect1} <span className="title">{title_sect2}</span>or <span className="title">Financial Planner</span> in California?</h1></div>
+                <div className="becomeTitle"><h2>Think about how a steady stream of fresh, free leads would change your business.</h2></div>
                 <p className="advisor_p">{text1}</p>
-                <h2>Sound Interesting?</h2>
-                <h2 className="title">{last_title}</h2>
+                <div className="becomeTitle"><h2>Sound Interesting?</h2></div>
+                <h2 className="lastTitle">{last_title}</h2>
                 <img src={advisorImg} className="advisorImg"></img>
             </div>
-            
         </>
     )
 }

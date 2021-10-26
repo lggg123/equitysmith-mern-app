@@ -1,6 +1,6 @@
 .about{
     position: relative;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .aboutImage1{
@@ -16,6 +16,21 @@
     margin: 0;
     font-family: "Arial Rounded MT Bold", sans-serif;
 }
+
+.aboutTitle{
+    margin: 20px;
+}
+
+.aboutSmallTitle{
+    margin: 20px;
+}
+
+.aboutText{
+    margin: 20px;
+    line-height: 25px;
+}
+
+
 
 p{
     font-family: "Rubik", sans-serif;

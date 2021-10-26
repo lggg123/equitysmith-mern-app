@@ -1,0 +1,17 @@
+.contactTitle{
+    margin-left: 138px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.contactForm{
+    padding: 40px;
+}
+
+input[type="text"]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: list-item;
+    box-sizing: border-box;
+    border-radius: 4px;
+}

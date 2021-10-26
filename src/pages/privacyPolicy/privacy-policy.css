@@ -1,8 +1,12 @@
 .privacyContent{
-    margin-left: 200px;
+    margin-left: 140px;
     font-family: "Arial Rounded MT Bold", sans-serif;
     margin-top: 60px;
     padding-bottom: 120px;
+}
+
+.privacyTitle{
+    margin: 10px 0 25px 0;
 }
 
 u{
@@ -14,6 +18,7 @@ u{
 .bold-font{
     font-weight: 500;
     font-size: 18px;
+    margin: 20px 0;
 }
 
 .blue_link {
