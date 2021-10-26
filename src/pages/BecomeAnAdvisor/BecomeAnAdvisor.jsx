@@ -14,8 +14,9 @@ export default function BecomeAnAdvisor() {
                 <p className="advisor_p">{text1}</p>
                 <h2>Sound Interesting?</h2>
                 <h2 className="title">{last_title}</h2>
+                <img src={advisorImg} className="advisorImg"></img>
             </div>
-            <img src={advisorImg} className="advisorImg"></img>
+            
         </>
     )
 }

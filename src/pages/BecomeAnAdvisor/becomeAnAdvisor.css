@@ -5,8 +5,9 @@
 }
 
 .advisorImg{
-    position: absolute;
+    position: relative;
     bottom: 0;
+    left: 400px;
     right: 0;
     height: 40vh;
 }

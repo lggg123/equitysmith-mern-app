@@ -10,6 +10,7 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Setting";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import Footer from "./components/footer/Footer";
 import { 
   BrowserRouter as Router,
   Switch, 
@@ -54,6 +55,7 @@ function App() {
           {user ? <Settings /> : <Register />}
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
