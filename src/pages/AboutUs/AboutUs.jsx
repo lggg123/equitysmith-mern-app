@@ -24,7 +24,7 @@ export default function AboutUs() {
                     <p>{text2}</p>
                     <h1>Your Privacy is <span className="title">Guaranteed</span></h1>
                     <p>{text3} <a href="/privacy-policy">{link1}</a>.</p>
-                    <h1>It's Time for a Better Insurance and Financial Service Experience</h1>
+                    <h1>It's Time for a Better Insurance and Financial Service<span className="title"> Experience</span></h1>
                     <ul className="no-bullet">
                         <li><span className="title">You are in complete control:</span>{list_t1}</li>
                         <li><span className="title">No selling permitted:</span>{list_t2}</li>
