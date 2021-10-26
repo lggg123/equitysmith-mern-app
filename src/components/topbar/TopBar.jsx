@@ -6,7 +6,7 @@ export default function TopBar() {
     return (
         <div className="top">
             <div className="topLeft">
-                <h2><span class="logo">Equity</span>smith</h2>
+                <span class="logo">Equity</span>smith
             </div> 
             <div className="topRight">
                 <Link to="/">Home</Link>
@@ -14,7 +14,7 @@ export default function TopBar() {
                 <Link to="/blog">Blog</Link>
                 <Link to="/become-an-advisor">Become An Advisor</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
-                <Link to="/contact-us">Contact</Link>
+                <Link to="/contact-us">Contact Us</Link>
             </div>
         </div>
     )
