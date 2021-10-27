@@ -11,6 +11,7 @@ import Settings from "./pages/settings/Setting";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Footer from "./components/footer/Footer";
+import Accounting from "./pages/Accounting/Accounting"
 import { 
   BrowserRouter as Router,
   Switch, 
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/about-us">
           <AboutUs />
+        </Route>
+        <Route path="/accounting">
+          <Accounting />
         </Route>
         <Route path="/blog">
           <Blog />
