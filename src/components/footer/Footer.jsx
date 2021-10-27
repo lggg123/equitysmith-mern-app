@@ -6,7 +6,7 @@ import linkedin from "../../img/linkedin_icon.svg"
 
 export default function Footer() {
     return(
-        <div className="container">
+        <div className="ft-container">
             <div className="footer-container">
                 <footer>
                     <section className="ft-main">
