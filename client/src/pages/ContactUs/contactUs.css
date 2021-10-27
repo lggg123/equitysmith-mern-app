@@ -1,0 +1,39 @@
+.contactContainer{
+    display: flex;
+}
+
+.contactColumn{
+    flex: 50%;
+    margin-top: 70px;
+}
+
+.contactTitle{
+    margin-left: 138px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.contactForm{
+    padding: 40px;
+    margin-left: 90px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: list-item;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.contactForm label{
+    margin-left: 10px;
+}
+
+textarea{
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+   height: 58px;
+   width: 99%;
+}

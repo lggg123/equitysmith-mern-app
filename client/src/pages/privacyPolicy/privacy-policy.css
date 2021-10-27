@@ -1,0 +1,31 @@
+.privacyContent{
+    margin-left: 140px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+
+.privacyTitle{
+    margin: 10px 0 25px 0;
+}
+
+u{
+    text-decoration: underline;
+    text-decoration-color: #01bbff;
+    text-underline-offset: 8px;
+}
+
+.bold-font{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.blue_link {
+    text-decoration: none;
+    color: #01bbff;
+}
+
+.privacyText{
+    line-height: 30px;
+}

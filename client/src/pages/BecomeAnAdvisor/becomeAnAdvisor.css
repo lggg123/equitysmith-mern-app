@@ -1,0 +1,32 @@
+.advisorContent{
+    margin-left: 100px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    margin-top: 30px;
+}
+
+.becomeTopTitle{
+    margin: 80px 25px 25px 25px;
+}
+
+.becomeTitle{
+    margin: 25px;
+}
+
+.lastTitle{
+    margin: 25px;
+    color: #01bbff;
+}
+
+.advisorImg{
+    position: relative;
+    bottom: 0;
+    left: 400px;
+    right: 0;
+    height: 40vh;
+}
+
+.advisor_p{
+    line-height: 25px;
+    font-family: "Rubik", sans-serif;
+    margin: 25px;
+}

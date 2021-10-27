@@ -1,0 +1,54 @@
+.about{
+    position: relative;
+    margin-left: 100px;
+}
+
+.aboutImage1{
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 40vh
+}
+
+.aboutContent{
+    position: relative;
+    top: 120px;
+    margin: 0;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.aboutTitle{
+    margin: 20px;
+}
+
+.aboutSmallTitle{
+    margin: 20px;
+}
+
+.aboutText{
+    margin: 20px;
+    line-height: 25px;
+}
+
+
+
+p{
+    font-family: "Rubik", sans-serif;
+}
+
+ul li{
+    font-family: "Rubik", sans-serif;
+}
+
+.aboutImage2{
+    margin-top: 150px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    height: 40vh;
+}
+
+.no-bullet{
+    list-style-type: none;
+    line-height: 25px;
+}
