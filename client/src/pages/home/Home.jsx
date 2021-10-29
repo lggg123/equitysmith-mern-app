@@ -29,7 +29,7 @@ export default function Home() {
                 <span className="mini-title">{s_title_p1}{s_title_p2}</span>
                 <span className="mini-title2">{s_title_p3}<span className="title"> {s_title_p4}</span> {s_title_p5}</span>
                 <h3>You're in complete control all the way:</h3>
-                <ul class="check">
+                <ul className="check">
                     <li>There is no cost for the call and absolutely no obligation</li>
                     <li>The Advisor you speak with will answer as many of your questions as possible, no selling - we promise</li>
                     <li>At your discretion, you may choose to further explore the service of the professional you speak with - the choice is entirely yours</li>
@@ -46,7 +46,7 @@ export default function Home() {
                     <p>{testimonial_2}</p>
                     <p className="NameLocM">{name_loc2}</p>
                 </div>
-                <div class="test">
+                <div className="test">
                     <img className="test_img" src={test_1}></img>
                     <p className="blue">{testimonial_3}</p>
                     <p className="NameLoc">{name_loc3}</p>

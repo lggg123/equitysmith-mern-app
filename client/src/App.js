@@ -11,7 +11,9 @@ import Settings from "./pages/settings/Setting";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Footer from "./components/footer/Footer";
-import Accounting from "./pages/Accounting/Accounting"
+import Accounting from "./pages/Accounting/Accounting";
+import Financial from "./pages/Financial/Financial";
+import Insurance from "./pages/insurance/Insurance";
 import { 
   BrowserRouter as Router,
   Switch, 
@@ -40,11 +42,17 @@ function App() {
         <Route path="/become-an-advisor">
           <BecomeAnAdvisor />
         </Route>
-        <Route path="/privacy-policy">
-          <PrivacyPolicy />
-        </Route>
         <Route path="/contact-us">
           <ContactUs />
+        </Route>
+        <Route path="/financial">
+          <Financial />
+        </Route>
+        <Route path="/insurance">
+          <Insurance />
+        </Route>
+        <Route path="/privacy-policy">
+          <PrivacyPolicy />
         </Route>
         <Route path="/register">
           {user ? <Home /> : <Register />}
@@ -57,6 +65,9 @@ function App() {
         </Route>
         <Route path="/settings">
           {user ? <Settings /> : <Register />}
+        </Route>
+        <Route path="/post/:postId">
+          <Single />
         </Route>
       </Switch>
       <Footer />

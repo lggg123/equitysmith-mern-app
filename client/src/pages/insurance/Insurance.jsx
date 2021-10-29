@@ -1,4 +1,4 @@
-import "./insurace.css"
+
 
 export default function Insurance() {
     const text1 = "The 15-minute consultation call is entirely free - no strings attached, honest!"
@@ -10,8 +10,8 @@ export default function Insurance() {
     return (
         <>
             <h1>Getting expert <span id="blue">insurance advice</span> just got a lot easier.</h1>
-            <h2 class="light">Speak with an independent <span id="bold">Insurance Broker</span> today</h2>
-            <h2 class="blue">How your free 15-minute call works:</h2>
+            <h2 className="light">Speak with an independent <span id="bold">Insurance Broker</span> today</h2>
+            <h2 className="blue">How your free 15-minute call works:</h2>
             <p><strong>{text1}</strong></p>
             <p><strong>{text2}</strong></p>
             <p><strong>{text3}</strong></p>
@@ -20,7 +20,7 @@ export default function Insurance() {
             <img></img>
             <button>Schedule your free 15-minute call now</button>
             <h1>How can we help you <span id="blue">today?</span></h1>
-            <h2 class="light">Our experienced <span id="bold-highlight">Insurance</span> professionals are ready to advise you on a variety of topics:</h2>
+            <h2 className="light">Our experienced <span id="bold-highlight">Insurance</span> professionals are ready to advise you on a variety of topics:</h2>
             <img></img>
             <h2>Schedule your <span id="blue">free, no obligation telephone consultation now.</span></h2>
             <button>Book my call</button>
