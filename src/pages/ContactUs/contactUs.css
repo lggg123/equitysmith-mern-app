@@ -67,28 +67,25 @@ h2{
     padding: 10px;
 }
 
-/* .contactList {
-    list-style-image: url(../../img/facebook-list-item.png);
-} */
 ul {
     margin: auto;
     width: 50%;
 }
 
-ul li:nth-child(1) {
+.contactList li:nth-child(1) {
     list-style-image: url(../../img/connect-facebook-list-item.png);
 }
 
-ul li:nth-child(2) {
+.contactList li:nth-child(2) {
     list-style-image: url(../../img/connect-linkedin-list-item.png);
 }
 
-ul li:nth-child(3) {
+.contactList li:nth-child(3) {
     list-style-image: url(../../img/connect-instagram-list-item.png);
 }
 
 li {
     color: #01B7FF;
     align-self: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
