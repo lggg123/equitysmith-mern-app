@@ -2,7 +2,12 @@ import "./topbar.css"
 import { Link } from "react-router-dom"
 
 export default function TopBar() {
-    const user = false;
+    // const { user } = useContext(Context);
+
+    // const handLogout = () => {
+    // dipatch({ type: "LOGOUT" });
+    // };
+    
     return (
         <div className="top">
             <div className="topLeft">
@@ -15,6 +20,10 @@ export default function TopBar() {
                 <Link to="/become-an-advisor">Become An Advisor</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/contact-us">Contact Us</Link>
+                {/* <li className="topListItem" onClick={handleLogout}>
+                        {user && "LOGOUT"}
+                    </li>
+                */}
             </div>
         </div>
     )

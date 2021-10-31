@@ -50,11 +50,13 @@
 
 .writeSubmit{
     position: absolute;
-    top: 20px;
-    right: 50px;
+    top: 80px;
+    right: 280px;
     color: white;
-    background-color: blue;
+    background-color: #01bbff;
     border-radius: 10px;
+    border: none;
+    padding: 10px;
     cursor: pointer;
     font-size: 16px;
 }
