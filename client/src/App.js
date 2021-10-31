@@ -57,16 +57,20 @@ function App() {
           <PrivacyPolicy />
         </Route>
         <Route path="/register">
-          {user ? <Home /> : <Register />}
+          <Register />
+          {/* {user ? <Home /> : <Register />} */}
         </Route>
         <Route path="/login">
-          {user ? <Home /> : <Login />}
+          <Login />
+          {/* {user ? <Home /> : <Login />} */}
         </Route>
         <Route path="/write">
-          {user ? <Write /> : <Login />}
+          <Write />
+          {/* {user ? <Write /> : <Login />} */}
         </Route>
         <Route path="/settings">
-          {user ? <Settings /> : <Register />}
+          <Settings />
+          {/* {user ? <Settings /> : <Register />} */}
         </Route>
         <Route path="/post/:postId">
           <Single />

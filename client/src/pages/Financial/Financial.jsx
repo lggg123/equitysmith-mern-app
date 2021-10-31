@@ -11,7 +11,7 @@ export default function Financial() {
         <>
             <h1>Getting expert <span class="blue">financial advice just got a lot easier.</span></h1>
             <h2 class="light">Speak with a <span class="bold">Certified Financial Planner (CFP) today</span></h2>
-            <h2 class="blue">How your free 15-minut call works:</h2>
+            <h2 class="blue">How your free 15-minute call works:</h2>
             <p><strong>{text1}</strong></p>
             <p><strong>{text2}</strong></p>
             <p><strong>{text3}</strong></p>

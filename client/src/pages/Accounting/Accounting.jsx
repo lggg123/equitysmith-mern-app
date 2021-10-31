@@ -15,7 +15,7 @@ export default function Accounting() {
             <h2 class="light">Speak with a Certified Public Accountant today</h2>
             <h2 class="blue">How your free 15-minute call works:</h2>
             <p><strong></strong></p>
-            <p><strong>The 15-minute consultation call is entirely free - no strings attached, honest!</strong></p>
+            <p><strong>{text1}</strong></p>
             <p><strong>The 15-minute consultation call is entirely free - no strings attached, honest!</strong></p>
             <p><strong>The 15-minute consultation call is entirely free - no strings attached, honest!</strong></p>
             <h2>How can we help you <span class="blue">today?</span></h2>
