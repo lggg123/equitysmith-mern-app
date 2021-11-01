@@ -9,14 +9,33 @@ export default function Financial() {
 
     return (
         <>
-            <h1>Getting expert <span class="blue">financial advice just got a lot easier.</span></h1>
-            <h2 class="light">Speak with a <span class="bold">Certified Financial Planner (CFP) today</span></h2>
-            <h2 class="blue">How your free 15-minut call works:</h2>
-            <p><strong>{text1}</strong></p>
-            <p><strong>{text2}</strong></p>
-            <p><strong>{text3}</strong></p>
-            <p><strong>{text4}</strong></p>
-            <p id="grey">{text5}</p>
+            <div className="finance-header">
+                <div className="finance-content">
+                    <h1 className="finance-title">Getting expert {"\n"}<span class="blue">financial advice{"\n"}</span>just got a lot {"\n"}easier.</h1>
+                </div>
+                <div>
+                    <h2 className="finance-mini-title">Speak with a <span class="bold">Certified Financial Planner (CFP) today</span></h2>
+                </div>
+                <div>
+                    <h2 className="finance-mini-title2">How your free 15-minute call works:</h2>
+                </div>
+
+                <div className="call-features">
+                    <p><strong>{text1}</strong></p>
+                    <p><strong>{text2}</strong></p>
+                    <p><strong>{text3}</strong></p>
+                    <p><strong>{text4}</strong></p>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div>
+                <p id="grey">{text5}</p>
+            </div>
             <img></img>
             <button></button>
             <h1>How can we help you <span id="blue">today?</span></h1>

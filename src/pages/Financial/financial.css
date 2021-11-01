@@ -1,0 +1,32 @@
+.finance-header {
+    margin-top: 130px;
+    margin-left: 74px;
+}
+
+.finance-title {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 54px;
+}
+
+.finance-mini-title {
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.finance-mini-title2 {
+    font-family: "arial rounded", sans-serif;
+    font-size: 31px;
+    color: #01bbff;
+    padding-top: 30px;
+}
+
+.call-features {
+    font-family: "arial rounded", sans-serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.call-features p {
+    padding-top: 10px;
+}
