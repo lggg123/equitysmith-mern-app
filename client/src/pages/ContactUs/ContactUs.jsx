@@ -7,19 +7,19 @@ export default function ContactUs() {
                 <div className="contactTitle"><h1>Contact <span class="blue">Us</span></h1></div>
                 <div className="contactForm">
                     <form>
-                        <label>
+                        <label id="form-title">
                             Name 
                         </label>
                         <input type="text" name="name" />
-                        <label>
+                        <label id="form-title">
                             Email
                         </label>
                         <input type="text" name="email" />
-                        <label>
+                        <label id="form-title">
                             Phone number: 
                         </label>
                         <input type="text" name="phone number:" />
-                        <label>
+                        <label id="form-title">
                             Message 
                         </label>
                         <textarea></textarea>
@@ -29,11 +29,11 @@ export default function ContactUs() {
             </div>
             <div className="contactColumn">
                 <div className="contactBox">
-                    <h2>Connect with us</h2>
-                    <ul>
-                        <li>Find us on Facebook</li>
-                        <li>Connect with us on Linkedin</li>
-                        <li>Follow us on Instagram</li>
+                    <h2 className="contactH2">Connect with us</h2>
+                    <ul className="contactList">
+                        <li>    Find us on Facebook</li>
+                        <li>    Connect with us on Linkedin</li>
+                        <li>    Follow us on Instagram</li>
                     </ul>
                 </div>
             </div>

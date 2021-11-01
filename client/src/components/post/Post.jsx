@@ -1,23 +1,22 @@
 import "./post.css"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export default function Post({post}) {
+    const PF = "http://localhost:5000/images/";
     return (
         <div className="post">
-            {post.photo && (
-
-            <img 
-                className="postImg"
-                src={post.photo}
-                alt="blog-post-image"
-            />
-            )}
+            {post.photo && 
+                <img 
+                    className="postImg"
+                    src={PF + post.photo}
+                    alt="blog-post-image"
+                />
+            }
             <div className="postInfo">
                 <div className="postCats">
-                    {
-                        post.categories.map((c) => (
-                            <span className="postCat">{c.name}</span>
-                        ))}
+                    {post.categories.map((c) => (
+                        <span className="postCat">{c.name}</span>
+                    ))}
                 </div>
                 <Link to={`/post/${post._id}`} className="link">
                     <span className="postTitle">
@@ -27,7 +26,7 @@ export default function Post({post}) {
                 <hr />
                 <span className="postDate">{new Date(post.createdAt).toDateString()}</span>
             </div>
-            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat pariatur similique necessitatibus obcaecati odit voluptates, dicta vitae dolor in? Quidem assumenda iusto, mollitia at odio praesentium impedit eum unde.</p>
+            <p className="postDesc">{post.desc}</p>
         </div>
     );
 }

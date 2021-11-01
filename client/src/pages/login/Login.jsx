@@ -7,7 +7,11 @@ import "./login.css"
 export default function Login() {
     const userRef = useRef();
     const passwordRef = useRef();
-    const { dispatch, isFetching } = useContext(Context);
+    const { user, dispatch, isFetching } = useContext(Context);
+
+    const handleLogout = () => {
+        dispatch({ type: "LOGOUT" });
+    };
     
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -47,6 +51,9 @@ export default function Login() {
                 <Link className="link" to="/register">
                     Register
                 </Link>
+            </button>
+            <button className="logoutButton" onClick={handleLogout}>
+                {user && "LOGOUT"}
             </button>
         </div>
     );

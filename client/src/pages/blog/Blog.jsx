@@ -17,10 +17,12 @@ export default function Blog() {
         fetchPosts();
     },[search]);
     return (
-        <div className="blog">
-            <Posts posts={posts}/>
-        </div>
-    )
+        <>
+            <div className="blog">
+                <Posts posts={posts}/>
+            </div>
+        </>
+    );
 }
 
 

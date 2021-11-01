@@ -66,7 +66,7 @@ function App() {
         </Route>
         <Route path="/write">
           <Write />
-          {/* {user ? <Write /> : <Login />} */}
+          {user ? <Write /> : <Login />}
         </Route>
         <Route path="/settings">
           <Settings />
