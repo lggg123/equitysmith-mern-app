@@ -6,12 +6,14 @@
 .finance-title {
     font-family: "Arial Rounded MT Bold", sans-serif;
     font-size: 54px;
+    font-weight: 300;
 }
 
 .finance-mini-title {
     font-family: "Arial", sans-serif;
     font-size: 25px;
     padding-top: 30px;
+    font-weight: 500;
 }
 
 .finance-mini-title2 {
@@ -19,12 +21,14 @@
     font-size: 31px;
     color: #01bbff;
     padding-top: 30px;
+    font-weight: 500;
 }
 
 .call-features {
     font-family: "arial rounded", sans-serif;
     font-size: 17px;
     padding-top: 10px;
+    font-weight: 4250;
 }
 
 .call-features p {

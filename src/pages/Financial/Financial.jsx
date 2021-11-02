@@ -1,4 +1,5 @@
 import "./financial.css"
+import aboutUs1 from "../../img/about-us1.png"
 
 export default function Financial() {
     const text1 = "The 15-minute consultation call is entirely free - no strings attached, honest!"
@@ -14,29 +15,26 @@ export default function Financial() {
                     <h1 className="finance-title">Getting expert {"\n"}<span class="blue">financial advice{"\n"}</span>just got a lot {"\n"}easier.</h1>
                 </div>
                 <div>
-                    <h2 className="finance-mini-title">Speak with a <span class="bold">Certified Financial Planner (CFP) today</span></h2>
+                    <h2 className="finance-mini-title">Speak with a <text style={{fontWeight: 'bold'}}>Certified Financial Planner (CFP) </text>today</h2>
                 </div>
                 <div>
                     <h2 className="finance-mini-title2">How your free 15-minute call works:</h2>
                 </div>
 
                 <div className="call-features">
-                    <p><strong>{text1}</strong></p>
-                    <p><strong>{text2}</strong></p>
-                    <p><strong>{text3}</strong></p>
-                    <p><strong>{text4}</strong></p>
+                    <p>{text1}</p>
+                    <p>{text2}</p>
+                    <p>{text3}</p>
+                    <p>{text4}</p>
                 </div>
 
-
             </div>
-
-
 
 
             <div>
                 <p id="grey">{text5}</p>
             </div>
-            <img></img>
+            <img src={aboutUs1}></img>
             <button></button>
             <h1>How can we help you <span id="blue">today?</span></h1>
             <h2 class="light">Our experienced <span id="bold-highlight">Certified Financial Planners</span> are ready to advise you on a variety of financial management topics:</h2>
