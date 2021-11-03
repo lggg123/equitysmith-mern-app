@@ -13,7 +13,7 @@
     font-family: "Arial", sans-serif;
     font-size: 25px;
     padding-top: 30px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .finance-mini-title2 {
@@ -33,4 +33,11 @@
 
 .call-features p {
     padding-top: 10px;
+}
+
+.disclaimer{
+    padding-top: 50px;
+    color: #666666;
+    font-family: "Rubik", Sans-serif;
+    font-size: 14px;
 }
