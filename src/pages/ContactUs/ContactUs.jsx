@@ -7,7 +7,7 @@ export default function ContactUs() {
                 <div className="contactTitle"><h1>Contact <span class="blue">Us</span></h1></div>
                 <div className="contactForm">
                     <form>
-                        <label>
+                        <label id="form-title">
                             Name 
                         </label>
                         <input type="text" name="name" />
