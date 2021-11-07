@@ -6,7 +6,6 @@
     flex: 50%;
     margin-top: 70px;
 }
-
 .contactBox{
     background-color: #f4f4f4;
     margin-top: 60px;
@@ -16,8 +15,8 @@
 }
 
 #form-title{
-    font-family: "Open Sans", Sans-serif;
-    font-size: 16px
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
 }
 
 .contactTitle{
@@ -30,7 +29,7 @@
     margin-left: 90px;
 }
 
-input[type="text"]{
+.contactForm input[type="text"]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 10px;
@@ -43,7 +42,7 @@ input[type="text"]{
     margin-left: 10px;
 }
 
-textarea{
+.contactForm textarea{
    display: flex;
    flex-direction: column;
    margin-left: 10px;
@@ -51,14 +50,14 @@ textarea{
    width: 99%;
 }
 
-.send{
+.send {
     width: 100%;
     margin-left: 10px;
     border-radius: 3px;
 }
 
-h2{
-    color: #333E48;
+.contactH2 {
+    color: black;
     font-family: "Arial Rounded MT Bold", sans-serif;
     font-size: 28px;
     line-height: 2.5em;
@@ -67,25 +66,23 @@ h2{
     padding: 10px;
 }
 
-ul {
-    margin: auto;
-    width: 50%;
-}
-
-.contactList li:nth-child(1) {
-    list-style-image: url(../../img/connect-facebook-list-item.png);
-}
-
-.contactList li:nth-child(2) {
-    list-style-image: url(../../img/connect-linkedin-list-item.png);
-}
-
-.contactList li:nth-child(3) {
-    list-style-image: url(../../img/connect-instagram-list-item.png);
-}
-
-li {
-    color: #01B7FF;
+ul.contactList li {
     align-self: center;
     padding-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #01b7ff;
+    font-family: "Nunito", sans-serif;
+}
+
+ul.contactList li:nth-child(1){
+    list-style-image: url("../../img/connect-facebook-list-item.png");
+}
+
+ul.contactList li:nth-child(2){
+    list-style-image: url("../../img/connect-linkedin-list-item.png");
+}
+
+ul.contactList li:nth-child(3){
+    list-style-image: url("../../img/connect-instagram-list-item.png");
 }

@@ -7,7 +7,7 @@ export default function ContactUs() {
                 <div className="contactTitle"><h1>Contact <span class="blue">Us</span></h1></div>
                 <div className="contactForm">
                     <form>
-                        <label>
+                        <label id="form-title">
                             Name 
                         </label>
                         <input type="text" name="name" />
@@ -29,11 +29,11 @@ export default function ContactUs() {
             </div>
             <div className="contactColumn">
                 <div className="contactBox">
-                    <h2>Connect with us</h2>
+                    <h2 className="contactH2">Connect with us</h2>
                     <ul className="contactList">
-                        <li>Find us on Facebook</li>
-                        <li>Connect with us on Linkedin</li>
-                        <li>Follow us on Instagram</li>
+                        <li>    Find us on Facebook</li>
+                        <li>    Connect with us on Linkedin</li>
+                        <li>    Follow us on Instagram</li>
                     </ul>
                 </div>
             </div>
