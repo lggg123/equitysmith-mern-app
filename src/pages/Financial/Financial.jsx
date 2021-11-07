@@ -1,5 +1,6 @@
 import "./financial.css"
 import aboutUs1 from "../../img/about-us1.png"
+import financial_tom from "../../img/financial_tom.png"
 
 export default function Financial() {
     const text1 = "The 15-minute consultation call is entirely free - no strings attached, honest!"
@@ -10,35 +11,41 @@ export default function Financial() {
 
     return (
         <>
-            <div className="finance-header">
-                <div className="finance-content">
-                    <h1 className="finance-title">Getting expert {"\n"}<span class="blue">financial advice{"\n"}</span>just got a lot {"\n"}easier.</h1>
+            <div className="container">
+                <div className="finance-header">
+                    <div className="finance-content">
+                        <h1 className="finance-title">Getting expert {"\n"}<span class="blue">financial advice{"\n"}</span>just got a lot {"\n"}easier.</h1>
+                    </div>
+                    <div>
+                        <h2 className="finance-mini-title">Speak with a <text style={{fontWeight: 'bold'}}>Certified Financial Planner (CFP) </text>today</h2>
+                    </div>
+                    <div>
+                        <h2 className="finance-mini-title2">How your free 15-minute call works:</h2>
+                    </div>
+                    <div className="call-features">
+                        <p>{text1}</p>
+                        <p>{text2}</p>
+                        <p>{text3}</p>
+                        <p>{text4}</p>
+                    </div>
+                    <div className="disclaimer">
+                        <p id="grey">{text5}</p>
+                    </div>
+                    <h1 className="scheduleText">How can we help you <span class="blue">today?</span></h1>
+                    <h2 className="scheduleText2">Our experienced <text style={{fontWeight: 'bold'}}>Certified Financial Planner (CFP) </text> are ready to advise you on a variety of financial management topics:</h2>
                 </div>
-                <div>
-                    <h2 className="finance-mini-title">Speak with a <text style={{fontWeight: 'bold'}}>Certified Financial Planner (CFP) </text>today</h2>
-                </div>
-                <div>
-                    <h2 className="finance-mini-title2">How your free 15-minute call works:</h2>
-                </div>
-                <div className="call-features">
-                    <p>{text1}</p>
-                    <p>{text2}</p>
-                    <p>{text3}</p>
-                    <p>{text4}</p>
-                </div>
-                <div className="disclaimer">
-                    <p id="grey">{text5}</p>
+
+                <div className="sideBar">
+                    <img src={aboutUs1} id="aboutUs" alt=""></img>
+
+                    <button className="scheduleButton">Schedule your free{"\n"}15-minute call now</button>
+
+                    <img src={financial_tom} id="financial_tom" alt=""></img>
                 </div>
             </div>
 
 
-            <img src={aboutUs1}></img>
-            <button></button>
-            <h1>How can we help you <span id="blue">today?</span></h1>
-            <h2 class="light">Our experienced <span id="bold-highlight">Certified Financial Planners</span> are ready to advise you on a variety of financial management topics:</h2>
-            <img></img>
-            <button></button>
-            <img></img>
+      
         </>
     )
     

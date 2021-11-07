@@ -6,7 +6,6 @@
     flex: 50%;
     margin-top: 70px;
 }
-
 .contactBox{
     background-color: #f4f4f4;
     margin-top: 60px;
@@ -16,8 +15,8 @@
 }
 
 #form-title{
-    font-family: "Open Sans", Sans-serif;
-    font-size: 16px
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
 }
 
 .contactTitle{
@@ -51,13 +50,13 @@
    width: 99%;
 }
 
-.send{
+.send {
     width: 100%;
     margin-left: 10px;
     border-radius: 3px;
 }
 
-.contacth2{
+.contactH2 {
     color: black;
     font-family: "Arial Rounded MT Bold", sans-serif;
     font-size: 28px;
