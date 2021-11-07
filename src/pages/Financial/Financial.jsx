@@ -38,7 +38,7 @@ export default function Financial() {
                         <p id="grey">{text5}</p>
                     </div>
                     <h1 className="scheduleText">How can we help you <span class="blue">today?</span></h1>
-                    <h2 className="scheduleText2">Our experienced <text style={{fontWeight: 'bold'}}><mark>Certified Financial Planner (CFP) </mark></text> are ready to advise you on a variety of financial management topics:</h2>
+                    <p className="scheduleText2">Our experienced <text style={{fontWeight: 'bold'}}><mark>Certified Financial Planner (CFP) </mark></text> are ready to advise you on a variety of financial management topics:</p>
 
                     <div className="item">
                         <img src={tax_issues} className="services" alt=""></img>
@@ -65,7 +65,7 @@ export default function Financial() {
                         <span className="caption">Budgeting</span>
                     </div>
 
-                    <h2 className="scheduleText2">Schedule your <span class="blue">free, no obligation</span> {"\n"}telephone consultation now.</h2>
+                    <h2 className="scheduleText3">Schedule your <span class="blue">free, no obligation</span> {"\n"}telephone consultation now.</h2>
 
                     <button className="bookButton">Book my call</button>
                 </div>

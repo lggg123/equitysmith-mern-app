@@ -54,13 +54,22 @@
 .scheduleText{
     font-family: "Arial Rounded MT Bold", sans-serif;
     font-size: 54px;
-    font-weight: 300;
+    font-weight: 100;
+    padding-top: 250px;
 }
 
 #aboutUs {
     padding-top: 160px;
     padding-bottom: 50px;
     max-width: 100%
+}
+
+.scheduleText2 {
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    padding-top: 32px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .scheduleButton{
@@ -75,19 +84,6 @@
     border-radius: 9px 9px 9px 9px;
     padding: 15px 60px 15px 60px;
     margin-left: 20px;
-}
-
-.scheduleText {
-    padding-top: 250px;
-}
-
-.scheduleText2 {
-    font-family: "Arial Rounded MT Bold", sans-serif;
-    font-size: 25px;
-    padding-top: 32px;
-    font-weight: 800;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 #financial_tom{
@@ -116,6 +112,14 @@
     font-size: 14px;
     color: #4a4a4a;
     font-weight: 600;
+}
+
+.scheduleText3{
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 60px;
+    line-height: 25pt;
 }
 
 .bookButton{
