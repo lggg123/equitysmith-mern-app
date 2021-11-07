@@ -64,9 +64,13 @@ export default function Financial() {
                         <img src={budgeting} className="services" alt=""></img>
                         <span className="caption">Budgeting</span>
                     </div>
+
+                    <h2 className="scheduleText2">Schedule your <span class="blue">free, no obligation</span> {"\n"}telephone consultation now.</h2>
+
+                    <button className="bookButton">Book my call</button>
                 </div>
 
-                <div className="sideBar">
+                <div className="sideBar"> 
                     <img src={aboutUs1} id="aboutUs" alt=""></img>
 
                     <button className="scheduleButton">Schedule your free{"\n"}15-minute call now</button>
