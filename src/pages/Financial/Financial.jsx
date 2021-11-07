@@ -1,6 +1,12 @@
 import "./financial.css"
 import aboutUs1 from "../../img/about-us1.png"
 import financial_tom from "../../img/financial_tom.png"
+import tax_issues from "../../img/tax_issues.png"
+import cash_flow_analysis from "../../img/cash_flow_analysis.png"
+import stocks_investing from "../../img/stocks_investing.png"
+import educational_saving from "../../img/educational_saving.png"
+import estate_planning from "../../img/estate_planning.png"
+import budgeting from "../../img/budgeting.png"
 
 export default function Financial() {
     const text1 = "The 15-minute consultation call is entirely free - no strings attached, honest!"
@@ -14,7 +20,7 @@ export default function Financial() {
             <div className="container">
                 <div className="finance-header">
                     <div className="finance-content">
-                        <h1 className="finance-title">Getting expert {"\n"}<span class="blue">financial advice{"\n"}</span>just got a lot {"\n"}easier.</h1>
+                        <h1 className="finance-title">Getting expert <span class="blue">financial</span>{"\n"}<span class="blue">advice </span>just got a lot{"\n"}easier.</h1>
                     </div>
                     <div>
                         <h2 className="finance-mini-title">Speak with a <text style={{fontWeight: 'bold'}}>Certified Financial Planner (CFP) </text>today</h2>
@@ -32,7 +38,32 @@ export default function Financial() {
                         <p id="grey">{text5}</p>
                     </div>
                     <h1 className="scheduleText">How can we help you <span class="blue">today?</span></h1>
-                    <h2 className="scheduleText2">Our experienced <text style={{fontWeight: 'bold'}}>Certified Financial Planner (CFP) </text> are ready to advise you on a variety of financial management topics:</h2>
+                    <h2 className="scheduleText2">Our experienced <text style={{fontWeight: 'bold'}}><mark>Certified Financial Planner (CFP) </mark></text> are ready to advise you on a variety of financial management topics:</h2>
+
+                    <div className="item">
+                        <img src={tax_issues} className="services" alt=""></img>
+                        <span className="caption">Tax Issues</span>
+                    </div>
+                    <div className="item">
+                        <img src={cash_flow_analysis} className="services" alt=""></img>
+                        <span className="caption">Cash Flow Analysis</span>
+                    </div>
+                    <div className="item">
+                        <img src={stocks_investing} className="services" alt=""></img>
+                        <span className="caption">Stocks Investing</span>
+                    </div>
+                    <div className="item">
+                        <img src={educational_saving} className="services" alt=""></img>
+                        <span className="caption">Educational Savings</span>
+                    </div>
+                    <div className="item">
+                        <img src={estate_planning} className="services" alt=""></img>
+                        <span className="caption">Estate Planning</span>
+                    </div>
+                    <div className="item">
+                        <img src={budgeting} className="services" alt=""></img>
+                        <span className="caption">Budgeting</span>
+                    </div>
                 </div>
 
                 <div className="sideBar">
@@ -43,9 +74,6 @@ export default function Financial() {
                     <img src={financial_tom} id="financial_tom" alt=""></img>
                 </div>
             </div>
-
-
-      
         </>
     )
     
