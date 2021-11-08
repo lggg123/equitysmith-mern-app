@@ -1,5 +1,5 @@
 import "./insurance.css"
-import aboutUs1 from "../../img/about-us1.png"
+import insurance_betty from "../../img/insurance_betty.png"
 import insurance_jane from "../../img/insurance_jane.png"
 import tax_issues from "../../img/tax_issues.png"
 import cash_flow_analysis from "../../img/cash_flow_analysis.png"
@@ -71,7 +71,7 @@ export default function Financial() {
                 </div>
 
                 <div className="sideBar"> 
-                    <img src={aboutUs1} id="aboutUs" alt=""></img>
+                    <img src={insurance_betty} id="insurance_betty" alt=""></img>
 
                     <button className="scheduleButton">Schedule your free{"\n"}15-minute call now</button>
 
