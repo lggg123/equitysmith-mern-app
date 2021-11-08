@@ -5,6 +5,7 @@ import BecomeAnAdvisor from "./pages/BecomeAnAdvisor/BecomeAnAdvisor";
 import Blog from "./pages/blog/Blog";
 import Financial from "./pages/Financial/Financial";
 import Accounting from "./pages/Accounting/Accounting";
+import Insurance from "./pages/Insurance/Insurance";
 import PrivacyPolicy from "./pages/privacyPolicy/PrivacyPolicy"
 import ContactUs from "./pages/ContactUs/ContactUs";
 import Single from "./pages/single/Single";
@@ -37,6 +38,9 @@ function App() {
         </Route>
         <Route path="/financial">
           <Financial />
+        </Route>
+        <Route path="/insurance">
+          <Insurance />
         </Route>
         <Route path="/accounting">
           <Accounting />
