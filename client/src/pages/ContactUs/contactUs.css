@@ -50,10 +50,12 @@
    width: 99%;
 }
 
-.send {
+.send input[type="submit"]{
     width: 100%;
     margin-left: 10px;
     border-radius: 3px;
+    font-size: 18px;
+    color: white;
 }
 
 .contactH2 {

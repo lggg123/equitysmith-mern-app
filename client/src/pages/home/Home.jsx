@@ -30,7 +30,7 @@ export default function Home() {
                 <span className="mini-title2">{s_title_p3}<span className="title"> {s_title_p4}</span> {s_title_p5}</span>
                 <h3>You're in complete control all the way:</h3>
                 <ul className="check">
-                    <li>There is no cost for the call and absolutely no obligation</li>
+                    <li className="check1">There is no cost for the call and absolutely no obligation</li>
                     <li>The Advisor you speak with will answer as many of your questions as possible, no selling - we promise</li>
                     <li>At your discretion, you may choose to further explore the service of the professional you speak with - the choice is entirely yours</li>
                 </ul>

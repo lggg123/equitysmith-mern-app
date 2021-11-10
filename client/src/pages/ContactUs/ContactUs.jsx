@@ -23,7 +23,9 @@ export default function ContactUs() {
                             Message 
                         </label>
                         <textarea></textarea>
-                        <input type="submit" className="send" value="Send" />
+                        <div className="send">
+                            <input type="submit" value="SEND" />
+                        </div>
                     </form>
                 </div>
             </div>
